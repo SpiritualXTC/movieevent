@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Movie Parties!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_movie_listing">Movie</string>
+
+    <!--
+    <string name="movie_display_createparty">Create Party</string>
+    <string name="movie_display_deleteparty">Delete Party</string>
+    <string name="movie_display_updateparty">Update Party</string>
+    -->
+
+    <string name="movie_display_datetime">Date / Time</string>
+    <string name="movie_display_venue">Venue</string>
+    <string name="movie_display_geolocation">GeoLocation</string>
+    <string name="movie_display_invited">Invited</string>
+    <string name="movie_display_parties">Parties</string>
+
+    <string name="movie_display_settime">Set Time</string>
+    <string name="movie_display_setdate">Set Date</string>
+
+    <string name="movie_invite_contacts">Invite Contacts</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="contacts_invite">Invite Contacts</string>
+
+
+    <string name="menu_item_movie_create">Create Party</string>
+
+    <string name="title_activity_party_detail">Party Details</string>
+    <string name="menu_item_party_update">Update Party</string>
+    <string name="menu_item_party_revert">Revert Changes</string>
+    <string name="menu_item_party_delete">Delete Party</string>
+
+    <string name="feedback_rating_update">Movie Rating has been Updated</string>
+    <string name="feedback_party_update">Party Details have been Updated</string>
+    <string name="feedback_party_delete">Party Details have been Deleted</string>
+
+
+    <string name="hello_world">Hello world!</string>
+</resources>

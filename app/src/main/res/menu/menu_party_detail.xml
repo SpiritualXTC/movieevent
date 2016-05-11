@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.spirit.movies.controller.PartyDetailActivity">
+    <item android:id="@+id/party_action_update"
+          android:title="@string/menu_item_party_update"
+          android:orderInCategory="100"
+          app:showAsAction="always"
+          android:icon="@android:drawable/ic_menu_save"/>
+    <item android:id="@+id/party_action_revert"
+          android:title="@string/menu_item_party_revert"
+          android:orderInCategory="100"
+          app:showAsAction="always"
+          android:icon="@android:drawable/ic_menu_revert"/>
+    <item android:id="@+id/party_action_delete"
+          android:title="@string/menu_item_party_delete"
+          android:orderInCategory="100"
+          app:showAsAction="always"
+          android:icon="@android:drawable/ic_menu_delete"/>
+</menu>

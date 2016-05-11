@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.spirit.movies.controller.MovieDetailActivity">
+
+    <item android:id="@+id/movie_action_create_party"
+          android:title="@string/menu_item_movie_create"
+          android:orderInCategory="100"
+          app:showAsAction="ifRoom"
+          android:icon="@android:drawable/ic_menu_add"/>
+
+</menu>
