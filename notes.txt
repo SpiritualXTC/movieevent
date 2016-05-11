@@ -1,0 +1,16 @@
+API Level = 22
+Option B!
+
+Design Notes:
+-------------
+ - SQL DB, uses Lazy "Instantiation" when connecting.
+ - Chain of Responisibility is used for:
+	- Search Movies (Online -> Local)
+	- Movie Details (Cached -> Local -> Online)
+	- Images (Cached -> Online)
+		
+Bonus Features:
+---------------
+	- LRU Image Cache (In Memory, Limit to 10 Images -- number of movies returned by a OMDB query)
+	- LRU Movie Cache (In Memory, Limit to 2 Movies -- for testing purposes)
+	-* One-to-Many: Movies <-> Parties (Done as it made more sense for Firebase)
